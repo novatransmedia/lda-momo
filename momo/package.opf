@@ -1,0 +1,707 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uLIrAKNtRG9wnuLpaeic8D7" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Momo</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="LDA">Omar Castro</dc:creator>
+    <dc:date>2024-01-10</dc:date>
+    <dc:language>es</dc:language>
+    <meta name="Portada" content="portada"/>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2024-02-12T19:44:32Z</meta>
+    <!--Meta smil-->
+    <!-- Pages -->
+    <meta property="media:duration" refines="#p-smil001">0:00:37</meta>
+    <meta property="media:duration" refines="#p-smil002">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil003">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil004">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil005">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil006">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil007">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil008">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil009">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil010">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil011">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil012">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil013">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil014">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil015">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil016">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil017">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil018">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil019">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil020">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil021">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil022">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil023">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil024">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil025">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil026">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil027">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil028">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil029">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil030">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil031">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil032">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil033">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil034">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil035">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil036">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil037">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil038">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil039">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil040">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil041">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil042">0:00:00</meta>
+    <meta property="media:duration" refines="#p-smil043">0:00:00</meta>
+    <!-- Glossary -->
+    <meta property="media:duration" refines="#g-smil-abrir_huecos">0:00:37</meta>
+    <meta property="media:duration" refines="#g-smil-aburrirse">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-adoptar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-amputar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-arrepentirse">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-aullar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-aventuras">0:0:00</meta>
+    <meta property="media:duration" refines="#g-smil-chantajear">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-collar_isabelino">0:0:00</meta>
+    <meta property="media:duration" refines="#g-smil-conocer">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-coquetear">0:0:00</meta>
+    <meta property="media:duration" refines="#g-smil-embarrarse">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-enamorarse">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-estar_a_la_moda">0:0:00</meta>
+    <meta property="media:duration" refines="#g-smil-fractura">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-frisbi">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-frustrarse">0:0:00</meta>
+    <meta property="media:duration" refines="#g-smil-guarderia_para_perrs">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-guardian">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-hacerse_bolita">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-hacer_pipi">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-hogar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-husmear">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-inci">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-infeccion">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-insor">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-interactuar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-ladrar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-ladron">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-lamerse">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-nadar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-panza">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-perseguir_gatos">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-salpicar">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-terco">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-tomar_el_sol">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-unicef">0:00:00</meta>
+    <meta property="media:duration" refines="#g-smil-yoga">0:00:00</meta>
+    <!--  -->
+    <dc:identifier id="uLIrAKNtRG9wnuLpaeic8D7" opf:scheme="uuid">uLIrAKNtRG9wnuLpaeic8D7</dc:identifier>
+  </metadata>
+  <manifest>
+    <!--pages-->
+    <!--main-->
+        <item id="cover" href="pages/info/cover.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <!--toc-->
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <!--info-->
+        <item id="guide" href="pages/info/guide.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="intro" href="pages/info/intro.xhtml" media-type="application/xhtml+xml" properties="scripted"/>        
+    <!--content-->
+        <item id="p-001" href="pages/content/p-001.xhtml" media-overlay="p-smil001" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-002" href="pages/content/p-002.xhtml" media-overlay="p-smil002" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-003" href="pages/content/p-003.xhtml" media-overlay="p-smil003" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-004" href="pages/content/p-004.xhtml" media-overlay="p-smil004" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-005" href="pages/content/p-005.xhtml" media-overlay="p-smil005" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-006" href="pages/content/p-006.xhtml" media-overlay="p-smil006" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-007" href="pages/content/p-007.xhtml" media-overlay="p-smil007" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-008" href="pages/content/p-008.xhtml" media-overlay="p-smil008" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-009" href="pages/content/p-009.xhtml" media-overlay="p-smil009" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-010" href="pages/content/p-010.xhtml" media-overlay="p-smil010" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-011" href="pages/content/p-011.xhtml" media-overlay="p-smil011" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-012" href="pages/content/p-012.xhtml" media-overlay="p-smil012" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-013" href="pages/content/p-013.xhtml" media-overlay="p-smil013" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-014" href="pages/content/p-014.xhtml" media-overlay="p-smil014" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-015" href="pages/content/p-015.xhtml" media-overlay="p-smil015" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-016" href="pages/content/p-016.xhtml" media-overlay="p-smil016" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-017" href="pages/content/p-017.xhtml" media-overlay="p-smil017" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-018" href="pages/content/p-018.xhtml" media-overlay="p-smil018" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-019" href="pages/content/p-019.xhtml" media-overlay="p-smil019" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-020" href="pages/content/p-020.xhtml" media-overlay="p-smil020" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-021" href="pages/content/p-021.xhtml" media-overlay="p-smil021" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-022" href="pages/content/p-022.xhtml" media-overlay="p-smil022" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-023" href="pages/content/p-023.xhtml" media-overlay="p-smil023" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-024" href="pages/content/p-024.xhtml" media-overlay="p-smil024" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-025" href="pages/content/p-025.xhtml" media-overlay="p-smil025" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-026" href="pages/content/p-026.xhtml" media-overlay="p-smil026" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-027" href="pages/content/p-027.xhtml" media-overlay="p-smil027" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-028" href="pages/content/p-028.xhtml" media-overlay="p-smil028" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-029" href="pages/content/p-029.xhtml" media-overlay="p-smil029" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-030" href="pages/content/p-030.xhtml" media-overlay="p-smil030" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-031" href="pages/content/p-031.xhtml" media-overlay="p-smil031" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-032" href="pages/content/p-032.xhtml" media-overlay="p-smil032" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-033" href="pages/content/p-033.xhtml" media-overlay="p-smil033" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-034" href="pages/content/p-034.xhtml" media-overlay="p-smil034" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-035" href="pages/content/p-035.xhtml" media-overlay="p-smil035" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-036" href="pages/content/p-036.xhtml" media-overlay="p-smil036" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-037" href="pages/content/p-037.xhtml" media-overlay="p-smil037" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-038" href="pages/content/p-038.xhtml" media-overlay="p-smil038" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-039" href="pages/content/p-039.xhtml" media-overlay="p-smil039" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-040" href="pages/content/p-040.xhtml" media-overlay="p-smil040" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-041" href="pages/content/p-041.xhtml" media-overlay="p-smil041" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-042" href="pages/content/p-042.xhtml" media-overlay="p-smil042" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="p-043" href="pages/content/p-043.xhtml" media-overlay="p-smil043" media-type="application/xhtml+xml" properties="scripted"/>
+
+        <item id="toc" href="pages/toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <!--/content-->
+    <!--glossary-->
+        <item id="g-abrir_huecos" href="pages/glossary/g-abrir_huecos.xhtml" media-overlay="g-smil-abrir_huecos" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-aburrirse" href="pages/glossary/g-aburrirse.xhtml" media-overlay="g-smil-aburrirse" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-adoptar" href="pages/glossary/g-adoptar.xhtml" media-overlay="g-smil-adoptar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-amputar" href="pages/glossary/g-amputar.xhtml" media-overlay="g-smil-amputar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-arrepentirse" href="pages/glossary/g-arrepentirse.xhtml" media-overlay="g-smil-arrepentirse" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-aullar" href="pages/glossary/g-aullar.xhtml" media-overlay="g-smil-aullar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-aventuras" href="pages/glossary/g-aventuras.xhtml" media-overlay="g-smil-aventuras" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-chantajear" href="pages/glossary/g-chantajear.xhtml" media-overlay="g-smil-chantajear" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-collar_isabelino" href="pages/glossary/g-collar_isabelino.xhtml" media-overlay="g-smil-collar_isabelino" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-conocer" href="pages/glossary/g-conocer.xhtml" media-overlay="g-smil-conocer" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-coquetear" href="pages/glossary/g-coquetear.xhtml" media-overlay="g-smil-coquetear" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-embarrarse" href="pages/glossary/g-embarrarse.xhtml" media-overlay="g-smil-embarrarse" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-enamorarse" href="pages/glossary/g-enamorarse.xhtml" media-overlay="g-smil-enamorarse" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-estar_a_la_moda" href="pages/glossary/g-estar_a_la_moda.xhtml" media-overlay="g-smil-estar_a_la_moda" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-fractura" href="pages/glossary/g-fractura.xhtml" media-overlay="g-smil-fractura" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-frisbi" href="pages/glossary/g-frisbi.xhtml" media-overlay="g-smil-frisbi" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-frustrarse" href="pages/glossary/g-frustrarse.xhtml" media-overlay="g-smil-frustrarse" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-guarderia_para_perros" href="pages/glossary/g-guarderia_para_perros.xhtml" media-overlay="g-smil-guarderia_para_perros" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-guardian" href="pages/glossary/g-guardian.xhtml" media-overlay="g-smil-guardian" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-hacerse_bolita" href="pages/glossary/g-hacerse_bolita.xhtml" media-overlay="g-smil-hacerse_bolita" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-hacer_pipi" href="pages/glossary/g-hacer_pipi.xhtml" media-overlay="g-smil-hacer_pipi" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-hogar" href="pages/glossary/g-hogar.xhtml" media-overlay="g-smil-hogar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-husmear" href="pages/glossary/g-husmear.xhtml" media-overlay="g-smil-husmear" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-inci" href="pages/glossary/g-inci.xhtml" media-overlay="g-smil-inci" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-infeccion" href="pages/glossary/g-infeccion.xhtml" media-overlay="g-smil-infeccion" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-insor" href="pages/glossary/g-insor.xhtml" media-overlay="g-smil-insor" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-interactuar" href="pages/glossary/g-interactuar.xhtml" media-overlay="g-smil-interactuar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-ladrar" href="pages/glossary/g-ladrar.xhtml" media-overlay="g-smil-ladrar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-ladron" href="pages/glossary/g-ladron.xhtml" media-overlay="g-smil-ladron" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-lamerse" href="pages/glossary/g-lamerse.xhtml" media-overlay="g-smil-lamerse" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-nadar" href="pages/glossary/g-nadar.xhtml" media-overlay="g-smil-nadar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-panza" href="pages/glossary/g-panza.xhtml" media-overlay="g-smil-panza" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-perseguir_gatos" href="pages/glossary/g-perseguir_gatos.xhtml" media-overlay="g-smil-perseguir_gatos" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-salpicar" href="pages/glossary/g-salpicar.xhtml" media-overlay="g-smil-salpicar" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-terco" href="pages/glossary/g-terco.xhtml" media-overlay="g-smil-terco" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-tomar_el_sol" href="pages/glossary/g-tomar_el_sol.xhtml" media-overlay="g-smil-tomar_el_sol" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-unicef" href="pages/glossary/g-unicef.xhtml" media-overlay="g-smil-unicef" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="g-yoga" href="pages/glossary/g-yoga.xhtml" media-overlay="g-smil-yoga" media-type="application/xhtml+xml" properties="scripted"/>
+    <!--/glosary-->
+        <item id="outro" href="pages/info/outro.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="logos" href="pages/info/logos.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <!--css-->
+        <item id="css_base" href="css/style.css" media-type="text/css"/>
+        <item id="css_base_map" href="css/style.css.map" media-type="application/octet-stream"/>
+        <item id="font_embed" href="css/fonts.css" media-type="text/css"/>
+        <item id="font" href="fonts/Verdana.ttf" media-type="application/vnd.ms-opentype"/>
+        <item id="font1" href="fonts/Verdana-Bold.ttf" media-type="application/vnd.ms-opentype"/>
+        <item id="font2" href="fonts/Verdana-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+    <!--image-->
+        <item id="ico_adelante" href="images/ico_adelante.svg" media-type="image/svg+xml"/>
+        <item id="ico_atras" href="images/ico_atras.svg" media-type="image/svg+xml"/>
+        <item id="ico_audio_description" href="images/ico_audio_description.svg" media-type="image/svg+xml"/>
+        <item id="ico_audio_narration" href="images/ico_audio_narration.svg" media-type="image/svg+xml"/>
+        <item id="ico_contrast" href="images/ico_contrast.svg" media-type="image/svg+xml"/>
+        <item id="ico_glossary" href="images/ico_glossary.svg" media-type="image/svg+xml"/>
+        <item id="ico_index" href="images/ico_index.svg" media-type="image/svg+xml"/>
+        <item id="ico_lsc" href="images/ico_lsc.svg" media-type="image/svg+xml"/>
+        <item id="ico_play" href="images/ico_play.svg" media-type="image/svg+xml"/>
+        <item id="ico_simple" href="images/ico_simple.svg" media-type="image/svg+xml"/>
+        <item id="img_cover_momo" href="images/img_cover_momo.png" media-type="image/png"/>
+        <item id="img_cover_autor" href="images/img_cover_autor.png" media-type="image/png"/>
+        <item id="img_cover_name" href="images/img_cover_name.png" media-type="image/png"/>
+        <item id="img_bg" href="images/img_bg.jpg" media-type="image/jpeg"/>
+        <item id="img_backcover_momo" href="images/img_backcover_momo.png" media-type="image/png"/>
+        <item id="logo_1" href="images/logos/logo_1.svg" media-type="image/svg+xml"/>
+        <item id="logo_2" href="images/logos/logo_2.svg" media-type="image/svg+xml"/>
+        <item id="logo_3" href="images/logos/logo_3.svg" media-type="image/svg+xml"/>
+        <item id="logo_4" href="images/logos/logo_4.svg" media-type="image/svg+xml"/>
+        <item id="img_p_001" href="images/pages/img_p_001.png" media-type="image/png"/>
+        <item id="img_p_002" href="images/pages/img_p_002.png" media-type="image/png"/>
+        <item id="img_p_003" href="images/pages/img_p_003.png" media-type="image/png"/>
+        <item id="img_p_004" href="images/pages/img_p_004.png" media-type="image/png"/>
+        <item id="img_p_005" href="images/pages/img_p_005.png" media-type="image/png"/>
+        <item id="img_p_006" href="images/pages/img_p_006.png" media-type="image/png"/>
+        <item id="img_p_007" href="images/pages/img_p_007.png" media-type="image/png"/>
+        <item id="img_p_008" href="images/pages/img_p_008.png" media-type="image/png"/>
+        <item id="img_p_009" href="images/pages/img_p_009.png" media-type="image/png"/>
+        <item id="img_p_010" href="images/pages/img_p_010.png" media-type="image/png"/>
+        <item id="img_p_011" href="images/pages/img_p_011.png" media-type="image/png"/>
+        <item id="img_p_012" href="images/pages/img_p_012.png" media-type="image/png"/>
+        <item id="img_p_013" href="images/pages/img_p_013.png" media-type="image/png"/>
+        <item id="img_p_014" href="images/pages/img_p_014.png" media-type="image/png"/>
+        <item id="img_p_015" href="images/pages/img_p_015.png" media-type="image/png"/>
+        <item id="img_p_016" href="images/pages/img_p_016.png" media-type="image/png"/>
+        <item id="img_p_017" href="images/pages/img_p_017.png" media-type="image/png"/>
+        <item id="img_p_018" href="images/pages/img_p_018.png" media-type="image/png"/>
+        <item id="img_p_019" href="images/pages/img_p_019.png" media-type="image/png"/>
+        <item id="img_p_020" href="images/pages/img_p_020.png" media-type="image/png"/>
+        <item id="img_p_021" href="images/pages/img_p_021.png" media-type="image/png"/>
+        <item id="img_p_022" href="images/pages/img_p_022.png" media-type="image/png"/>
+        <item id="img_p_023" href="images/pages/img_p_023.png" media-type="image/png"/>
+        <item id="img_p_024" href="images/pages/img_p_024.png" media-type="image/png"/>
+        <item id="img_p_025" href="images/pages/img_p_025.png" media-type="image/png"/>
+        <item id="img_p_026" href="images/pages/img_p_026.png" media-type="image/png"/>
+        <item id="img_p_027" href="images/pages/img_p_027.png" media-type="image/png"/>
+        <item id="img_p_028" href="images/pages/img_p_028.png" media-type="image/png"/>
+        <item id="img_p_029" href="images/pages/img_p_029.png" media-type="image/png"/>
+        <item id="img_p_030" href="images/pages/img_p_030.png" media-type="image/png"/>
+        <item id="img_p_031" href="images/pages/img_p_031.png" media-type="image/png"/>
+        <item id="img_p_032" href="images/pages/img_p_032.png" media-type="image/png"/>
+        <item id="img_p_033" href="images/pages/img_p_033.png" media-type="image/png"/>
+        <item id="img_p_034" href="images/pages/img_p_034.png" media-type="image/png"/>
+        <item id="img_p_035" href="images/pages/img_p_035.png" media-type="image/png"/>
+        <item id="img_p_036" href="images/pages/img_p_036.png" media-type="image/png"/>
+        <item id="img_p_037" href="images/pages/img_p_037.png" media-type="image/png"/>
+        <item id="img_p_038" href="images/pages/img_p_038.png" media-type="image/png"/>
+        <item id="img_p_039" href="images/pages/img_p_039.png" media-type="image/png"/>
+        <item id="img_p_040" href="images/pages/img_p_040.png" media-type="image/png"/>
+        <item id="img_p_041" href="images/pages/img_p_041.png" media-type="image/png"/>
+        <item id="img_p_042" href="images/pages/img_p_042.png" media-type="image/png"/>
+        <item id="img_p_043" href="images/pages/img_p_043.png" media-type="image/png"/>
+        <item id="img_g_abrir_huecos" href="images/glossary/img_g_abrir_huecos.png" media-type="image/png"/>
+        <item id="img_g_aburrirse" href="images/glossary/img_g_aburrirse.png" media-type="image/png"/>
+        <item id="img_g_adoptar" href="images/glossary/img_g_adoptar.png" media-type="image/png"/>
+        <item id="img_g_amputar" href="images/glossary/img_g_amputar.png" media-type="image/png"/>
+        <item id="img_g_arrepentirse" href="images/glossary/img_g_arrepentirse.png" media-type="image/png"/>
+        <item id="img_g_aullar" href="images/glossary/img_g_aullar.png" media-type="image/png"/>
+        <item id="img_g_aventuras" href="images/glossary/img_g_aventuras.png" media-type="image/png"/>
+        <item id="img_g_chantajear" href="images/glossary/img_g_chantajear.png" media-type="image/png"/>
+        <item id="img_g_collar_isabelino" href="images/glossary/img_g_collar_isabelino.png" media-type="image/png"/>
+        <item id="img_g_conocer" href="images/glossary/img_g_conocer.png" media-type="image/png"/>
+        <item id="img_g_coquetear" href="images/glossary/img_g_coquetear.png" media-type="image/png"/>
+        <item id="img_g_embarrarse" href="images/glossary/img_g_embarrarse.png" media-type="image/png"/>
+        <item id="img_g_enamorarse" href="images/glossary/img_g_enamorarse.png" media-type="image/png"/>
+        <item id="img_g_estar_a_la_moda" href="images/glossary/img_g_estar_a_la_moda.png" media-type="image/png"/>
+        <item id="img_g_fractura" href="images/glossary/img_g_fractura.png" media-type="image/png"/>
+        <item id="img_g_frisbi" href="images/glossary/img_g_frisbi.png" media-type="image/png"/>
+        <item id="img_g_frustrarse" href="images/glossary/img_g_frustrarse.png" media-type="image/png"/>
+        <item id="img_g_guarderia_para_perros" href="images/glossary/img_g_guarderia_para_perros.png" media-type="image/png"/>
+        <item id="img_g_guardian" href="images/glossary/img_g_guardian.png" media-type="image/png"/>
+        <item id="img_g_hacer_pipi" href="images/glossary/img_g_hacer_pipi.png" media-type="image/png"/>
+        <item id="img_g_hacerse_bolita" href="images/glossary/img_g_hacerse_bolita.png" media-type="image/png"/>
+        <item id="img_g_hogar" href="images/glossary/img_g_hogar.png" media-type="image/png"/>
+        <item id="img_g_husmear" href="images/glossary/img_g_husmear.png" media-type="image/png"/>
+        <item id="img_g_inci" href="images/glossary/img_g_inci.png" media-type="image/png"/>
+        <item id="img_g_infeccion" href="images/glossary/img_g_infeccion.png" media-type="image/png"/>
+        <item id="img_g_insor" href="images/glossary/img_g_insor.png" media-type="image/png"/>
+        <item id="img_g_interactuar" href="images/glossary/img_g_interactuar.png" media-type="image/png"/>
+        <item id="img_g_ladrar" href="images/glossary/img_g_ladrar.png" media-type="image/png"/>
+        <item id="img_g_ladron" href="images/glossary/img_g_ladron.png" media-type="image/png"/>
+        <item id="img_g_lamerse" href="images/glossary/img_g_lamerse.png" media-type="image/png"/>
+        <item id="img_g_nadar" href="images/glossary/img_g_nadar.png" media-type="image/png"/>
+        <item id="img_g_panza" href="images/glossary/img_g_panza.png" media-type="image/png"/>
+        <item id="img_g_perseguir_gatos" href="images/glossary/img_g_perseguir_gatos.png" media-type="image/png"/>
+        <item id="img_g_salpicar" href="images/glossary/img_g_salpicar.png" media-type="image/png"/>
+        <item id="img_g_terco" href="images/glossary/img_g_terco.png" media-type="image/png"/>
+        <item id="img_g_tomar_el_sol" href="images/glossary/img_g_tomar_el_sol.png" media-type="image/png"/>
+        <item id="img_g_unicef" href="images/glossary/img_g_unicef.png" media-type="image/png"/>
+        <item id="img_g_yoga" href="images/glossary/img_g_yoga.png" media-type="image/png"/>  
+    <!--audio-->
+        <item id="aud_cover_desc" href="audio/aud_cover_desc.mp3" media-type="audio/mpeg"/>
+        <item id="aud_cover_page" href="audio/aud_cover_page.mp3" media-type="audio/mpeg"/>
+        <item id="aud_guia_desc" href="audio/aud_guia_desc.mp3" media-type="audio/mpeg"/>
+        <item id="aud_logos_desc" href="audio/aud_logos_desc.mp3" media-type="audio/mpeg"/>
+        <item id="aud_outro_desc" href="audio/aud_outro_desc.mp3" media-type="audio/mpeg"/>
+        <item id="aud_outro_page" href="audio/aud_outro_page.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_001" href="audio/page/aud_p_001.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_002" href="audio/page/aud_p_002.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_003" href="audio/page/aud_p_003.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_004" href="audio/page/aud_p_004.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_005" href="audio/page/aud_p_005.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_006" href="audio/page/aud_p_006.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_007" href="audio/page/aud_p_007.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_008" href="audio/page/aud_p_008.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_009" href="audio/page/aud_p_009.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_010" href="audio/page/aud_p_010.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_011" href="audio/page/aud_p_011.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_012" href="audio/page/aud_p_012.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_013" href="audio/page/aud_p_013.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_014" href="audio/page/aud_p_014.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_015" href="audio/page/aud_p_015.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_016" href="audio/page/aud_p_016.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_017" href="audio/page/aud_p_017.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_018" href="audio/page/aud_p_018.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_019" href="audio/page/aud_p_019.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_020" href="audio/page/aud_p_020.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_021" href="audio/page/aud_p_021.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_022" href="audio/page/aud_p_022.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_023" href="audio/page/aud_p_023.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_024" href="audio/page/aud_p_024.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_025" href="audio/page/aud_p_025.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_026" href="audio/page/aud_p_026.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_027" href="audio/page/aud_p_027.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_028" href="audio/page/aud_p_028.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_029" href="audio/page/aud_p_029.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_030" href="audio/page/aud_p_030.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_031" href="audio/page/aud_p_031.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_032" href="audio/page/aud_p_032.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_033" href="audio/page/aud_p_033.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_034" href="audio/page/aud_p_034.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_035" href="audio/page/aud_p_035.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_036" href="audio/page/aud_p_036.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_037" href="audio/page/aud_p_037.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_038" href="audio/page/aud_p_038.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_039" href="audio/page/aud_p_039.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_040" href="audio/page/aud_p_040.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_041" href="audio/page/aud_p_041.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_042" href="audio/page/aud_p_042.mp3" media-type="audio/mpeg"/>
+        <item id="aud_p_043" href="audio/page/aud_p_043.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_001" href="audio/desc/aud_d_001.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_002" href="audio/desc/aud_d_002.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_003" href="audio/desc/aud_d_003.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_004" href="audio/desc/aud_d_004.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_005" href="audio/desc/aud_d_005.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_006" href="audio/desc/aud_d_006.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_007" href="audio/desc/aud_d_007.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_008" href="audio/desc/aud_d_008.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_009" href="audio/desc/aud_d_009.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_010" href="audio/desc/aud_d_010.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_011" href="audio/desc/aud_d_011.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_012" href="audio/desc/aud_d_012.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_013" href="audio/desc/aud_d_013.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_014" href="audio/desc/aud_d_014.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_015" href="audio/desc/aud_d_015.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_016" href="audio/desc/aud_d_016.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_017" href="audio/desc/aud_d_017.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_018" href="audio/desc/aud_d_018.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_019" href="audio/desc/aud_d_019.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_020" href="audio/desc/aud_d_020.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_021" href="audio/desc/aud_d_021.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_022" href="audio/desc/aud_d_022.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_023" href="audio/desc/aud_d_023.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_024" href="audio/desc/aud_d_024.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_025" href="audio/desc/aud_d_025.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_026" href="audio/desc/aud_d_026.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_027" href="audio/desc/aud_d_027.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_028" href="audio/desc/aud_d_028.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_029" href="audio/desc/aud_d_029.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_030" href="audio/desc/aud_d_030.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_031" href="audio/desc/aud_d_031.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_032" href="audio/desc/aud_d_032.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_033" href="audio/desc/aud_d_033.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_034" href="audio/desc/aud_d_034.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_035" href="audio/desc/aud_d_035.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_036" href="audio/desc/aud_d_036.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_037" href="audio/desc/aud_d_037.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_038" href="audio/desc/aud_d_038.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_039" href="audio/desc/aud_d_039.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_040" href="audio/desc/aud_d_040.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_041" href="audio/desc/aud_d_041.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_042" href="audio/desc/aud_d_042.mp3" media-type="audio/mpeg"/>
+        <item id="aud_d_043" href="audio/desc/aud_d_043.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_abrir_huecos" href="audio/glos/aud_g_abrir_huecos.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_aburrirse" href="audio/glos/aud_g_aburrirse.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_adoptar" href="audio/glos/aud_g_adoptar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_amputar" href="audio/glos/aud_g_amputar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_arrepentirse" href="audio/glos/aud_g_arrepentirse.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_aullar" href="audio/glos/aud_g_aullar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_aventuras" href="audio/glos/aud_g_aventuras.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_chantajear" href="audio/glos/aud_g_chantajear.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_collar_isabelino" href="audio/glos/aud_g_collar_isabelino.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_conocer" href="audio/glos/aud_g_conocer.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_coquetear" href="audio/glos/aud_g_coquetear.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_embarrarse" href="audio/glos/aud_g_embarrarse.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_enamorarse" href="audio/glos/aud_g_enamorarse.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_estar_a_la_moda" href="audio/glos/aud_g_estar_a_la_moda.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_fractura" href="audio/glos/aud_g_fractura.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_frisbi" href="audio/glos/aud_g_frisbi.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_frustrarse" href="audio/glos/aud_g_frustrarse.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_guarderia_para_perros" href="audio/glos/aud_g_guarderia_para_perros.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_guardian" href="audio/glos/aud_g_guardian.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_hacer_pipi" href="audio/glos/aud_g_hacer_pipi.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_hacerse_bolita" href="audio/glos/aud_g_hacerse_bolita.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_hogar" href="audio/glos/aud_g_hogar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_husmear" href="audio/glos/aud_g_husmear.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_inci" href="audio/glos/aud_g_inci.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_infeccion" href="audio/glos/aud_g_infeccion.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_insor" href="audio/glos/aud_g_insor.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_interactuar" href="audio/glos/aud_g_interactuar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_ladrar" href="audio/glos/aud_g_ladrar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_ladron" href="audio/glos/aud_g_ladron.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_lamerse" href="audio/glos/aud_g_lamerse.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_nadar" href="audio/glos/aud_g_nadar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_panza" href="audio/glos/aud_g_panza.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_perseguir_gatos" href="audio/glos/aud_g_perseguir_gatos.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_salpicar" href="audio/glos/aud_g_salpicar.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_terco" href="audio/glos/aud_g_terco.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_tomar_el_sol" href="audio/glos/aud_g_tomar_el_sol.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_unicef" href="audio/glos/aud_g_unicef.mp3" media-type="audio/mpeg"/>
+        <item id="aud_g_yoga" href="audio/glos/aud_g_yoga.mp3" media-type="audio/mpeg"/>
+    <!--video-->
+        <item id="video_intro" href="video/vid_intro_autor.mp4" media-type="video/mp4"/>
+        <item id="video_intro_lsc" href="video/vid_intro_autor_lsc.mp4" media-type="video/mp4"/>
+        <item id="vid_intro_autor_lsc" href="video/vid_intro_autor_lsc.vtt" media-type="text/vtt"/>
+        <item id="vid_logos_lsc" href="video/vid_logos_lsc.mp4" media-type="video/mp4"/>
+        <item id="vid_outro_lsc" href="video/vid_outro_lsc.mp4" media-type="video/mp4"/>
+        <item id="vid_p_001" href="video/pages/vid_p_001.mp4" media-type="video/mp4"/>
+        <item id="vid_p_002" href="video/pages/vid_p_002.mp4" media-type="video/mp4"/>
+        <item id="vid_p_003" href="video/pages/vid_p_003.mp4" media-type="video/mp4"/>
+        <item id="vid_p_004" href="video/pages/vid_p_004.mp4" media-type="video/mp4"/>
+        <item id="vid_p_005" href="video/pages/vid_p_005.mp4" media-type="video/mp4"/>
+        <item id="vid_p_006" href="video/pages/vid_p_006.mp4" media-type="video/mp4"/>
+        <item id="vid_p_007" href="video/pages/vid_p_007.mp4" media-type="video/mp4"/>
+        <item id="vid_p_008" href="video/pages/vid_p_008.mp4" media-type="video/mp4"/>
+        <item id="vid_p_009" href="video/pages/vid_p_009.mp4" media-type="video/mp4"/>
+        <item id="vid_p_010" href="video/pages/vid_p_010.mp4" media-type="video/mp4"/>
+        <item id="vid_p_011" href="video/pages/vid_p_011.mp4" media-type="video/mp4"/>
+        <item id="vid_p_012" href="video/pages/vid_p_012.mp4" media-type="video/mp4"/>
+        <item id="vid_p_013" href="video/pages/vid_p_013.mp4" media-type="video/mp4"/>
+        <item id="vid_p_014" href="video/pages/vid_p_014.mp4" media-type="video/mp4"/>
+        <item id="vid_p_015" href="video/pages/vid_p_015.mp4" media-type="video/mp4"/>
+        <item id="vid_p_016" href="video/pages/vid_p_016.mp4" media-type="video/mp4"/>
+        <item id="vid_p_017" href="video/pages/vid_p_017.mp4" media-type="video/mp4"/>
+        <item id="vid_p_018" href="video/pages/vid_p_018.mp4" media-type="video/mp4"/>
+        <item id="vid_p_019" href="video/pages/vid_p_019.mp4" media-type="video/mp4"/>
+        <item id="vid_p_020" href="video/pages/vid_p_020.mp4" media-type="video/mp4"/>
+        <item id="vid_p_021" href="video/pages/vid_p_021.mp4" media-type="video/mp4"/>
+        <item id="vid_p_022" href="video/pages/vid_p_022.mp4" media-type="video/mp4"/>
+        <item id="vid_p_023" href="video/pages/vid_p_023.mp4" media-type="video/mp4"/>
+        <item id="vid_p_024" href="video/pages/vid_p_024.mp4" media-type="video/mp4"/>
+        <item id="vid_p_025" href="video/pages/vid_p_025.mp4" media-type="video/mp4"/>
+        <item id="vid_p_026" href="video/pages/vid_p_026.mp4" media-type="video/mp4"/>
+        <item id="vid_p_027" href="video/pages/vid_p_027.mp4" media-type="video/mp4"/>
+        <item id="vid_p_028" href="video/pages/vid_p_028.mp4" media-type="video/mp4"/>
+        <item id="vid_p_029" href="video/pages/vid_p_029.mp4" media-type="video/mp4"/>
+        <item id="vid_p_030" href="video/pages/vid_p_030.mp4" media-type="video/mp4"/>
+        <item id="vid_p_031" href="video/pages/vid_p_031.mp4" media-type="video/mp4"/>
+        <item id="vid_p_032" href="video/pages/vid_p_032.mp4" media-type="video/mp4"/>
+        <item id="vid_p_033" href="video/pages/vid_p_033.mp4" media-type="video/mp4"/>
+        <item id="vid_p_034" href="video/pages/vid_p_034.mp4" media-type="video/mp4"/>
+        <item id="vid_p_035" href="video/pages/vid_p_035.mp4" media-type="video/mp4"/>
+        <item id="vid_p_036" href="video/pages/vid_p_036.mp4" media-type="video/mp4"/>
+        <item id="vid_p_037" href="video/pages/vid_p_037.mp4" media-type="video/mp4"/>
+        <item id="vid_p_038" href="video/pages/vid_p_038.mp4" media-type="video/mp4"/>
+        <item id="vid_p_039" href="video/pages/vid_p_039.mp4" media-type="video/mp4"/>
+        <item id="vid_p_040" href="video/pages/vid_p_040.mp4" media-type="video/mp4"/>
+        <item id="vid_p_041" href="video/pages/vid_p_041.mp4" media-type="video/mp4"/>
+        <item id="vid_p_042" href="video/pages/vid_p_042.mp4" media-type="video/mp4"/>
+        <item id="vid_p_043" href="video/pages/vid_p_043.mp4" media-type="video/mp4"/>
+        <item id="vid_g_abrir_huecos" href="video/glossary/vid_g_abrir_huecos.mp4" media-type="video/mp4"/>
+        <item id="vid_g_aburrirse" href="video/glossary/vid_g_aburrirse.mp4" media-type="video/mp4"/>
+        <item id="vid_g_adoptar" href="video/glossary/vid_g_adoptar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_amputar" href="video/glossary/vid_g_amputar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_arrepentirse" href="video/glossary/vid_g_arrepentirse.mp4" media-type="video/mp4"/>
+        <item id="vid_g_aullar" href="video/glossary/vid_g_aullar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_aventuras" href="video/glossary/vid_g_aventuras.mp4" media-type="video/mp4"/>
+        <item id="vid_g_chantajear" href="video/glossary/vid_g_chantajear.mp4" media-type="video/mp4"/>
+        <item id="vid_g_collar_isabelino" href="video/glossary/vid_g_collar_isabelino.mp4" media-type="video/mp4"/>
+        <item id="vid_g_conocer" href="video/glossary/vid_g_conocer.mp4" media-type="video/mp4"/>
+        <item id="vid_g_coquetear" href="video/glossary/vid_g_coquetear.mp4" media-type="video/mp4"/>
+        <item id="vid_g_embarrarse" href="video/glossary/vid_g_embarrarse.mp4" media-type="video/mp4"/>
+        <item id="vid_g_enamorarse" href="video/glossary/vid_g_enamorarse.mp4" media-type="video/mp4"/>
+        <item id="vid_g_estar_a_la_moda" href="video/glossary/vid_g_estar_a_la_moda.mp4" media-type="video/mp4"/>
+        <item id="vid_g_fractura" href="video/glossary/vid_g_fractura.mp4" media-type="video/mp4"/>
+        <item id="vid_g_frisbi" href="video/glossary/vid_g_frisbi.mp4" media-type="video/mp4"/>
+        <item id="vid_g_frustrarse" href="video/glossary/vid_g_frustrarse.mp4" media-type="video/mp4"/>
+        <item id="vid_g_guarderia_para_perros" href="video/glossary/vid_g_guarderia_para_perros.mp4" media-type="video/mp4"/>
+        <item id="vid_g_guardian" href="video/glossary/vid_g_guardian.mp4" media-type="video/mp4"/>
+        <item id="vid_g_hacer_pipi" href="video/glossary/vid_g_hacer_pipi.mp4" media-type="video/mp4"/>
+        <item id="vid_g_hacerse_bolita" href="video/glossary/vid_g_hacerse_bolita.mp4" media-type="video/mp4"/>
+        <item id="vid_g_hogar" href="video/glossary/vid_g_hogar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_husmear" href="video/glossary/vid_g_husmear.mp4" media-type="video/mp4"/>
+        <item id="vid_g_inci" href="video/glossary/vid_g_inci.mp4" media-type="video/mp4"/>
+        <item id="vid_g_infeccion" href="video/glossary/vid_g_infeccion.mp4" media-type="video/mp4"/>
+        <item id="vid_g_insor" href="video/glossary/vid_g_insor.mp4" media-type="video/mp4"/>
+        <item id="vid_g_interactuar" href="video/glossary/vid_g_interactuar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_ladrar" href="video/glossary/vid_g_ladrar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_ladron" href="video/glossary/vid_g_ladron.mp4" media-type="video/mp4"/>
+        <item id="vid_g_lamerse" href="video/glossary/vid_g_lamerse.mp4" media-type="video/mp4"/>
+        <item id="vid_g_nadar" href="video/glossary/vid_g_nadar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_panza" href="video/glossary/vid_g_panza.mp4" media-type="video/mp4"/>
+        <item id="vid_g_perseguir_gatos" href="video/glossary/vid_g_perseguir_gatos.mp4" media-type="video/mp4"/>
+        <item id="vid_g_salpicar" href="video/glossary/vid_g_salpicar.mp4" media-type="video/mp4"/>
+        <item id="vid_g_terco" href="video/glossary/vid_g_terco.mp4" media-type="video/mp4"/>
+        <item id="vid_g_tomar_el_sol" href="video/glossary/vid_g_tomar_el_sol.mp4" media-type="video/mp4"/>
+        <item id="vid_g_unicef" href="video/glossary/vid_g_unicef.mp4" media-type="video/mp4"/>
+        <item id="vid_g_yoga" href="video/glossary/vid_g_yoga.mp4" media-type="video/mp4"/>
+    <!--smil pages-->
+        <item id="p-smil001" href="smil/pages/p-001.smil" media-type="application/smil+xml"/>
+        <item id="p-smil002" href="smil/pages/p-002.smil" media-type="application/smil+xml"/>
+        <item id="p-smil003" href="smil/pages/p-003.smil" media-type="application/smil+xml"/>
+        <item id="p-smil004" href="smil/pages/p-004.smil" media-type="application/smil+xml"/>
+        <item id="p-smil005" href="smil/pages/p-005.smil" media-type="application/smil+xml"/>
+        <item id="p-smil006" href="smil/pages/p-006.smil" media-type="application/smil+xml"/>
+        <item id="p-smil007" href="smil/pages/p-007.smil" media-type="application/smil+xml"/>
+        <item id="p-smil008" href="smil/pages/p-008.smil" media-type="application/smil+xml"/>
+        <item id="p-smil009" href="smil/pages/p-009.smil" media-type="application/smil+xml"/>
+        <item id="p-smil010" href="smil/pages/p-010.smil" media-type="application/smil+xml"/>
+        <item id="p-smil011" href="smil/pages/p-011.smil" media-type="application/smil+xml"/>
+        <item id="p-smil012" href="smil/pages/p-012.smil" media-type="application/smil+xml"/>
+        <item id="p-smil013" href="smil/pages/p-013.smil" media-type="application/smil+xml"/>
+        <item id="p-smil014" href="smil/pages/p-014.smil" media-type="application/smil+xml"/>
+        <item id="p-smil015" href="smil/pages/p-015.smil" media-type="application/smil+xml"/>
+        <item id="p-smil016" href="smil/pages/p-016.smil" media-type="application/smil+xml"/>
+        <item id="p-smil017" href="smil/pages/p-017.smil" media-type="application/smil+xml"/>
+        <item id="p-smil018" href="smil/pages/p-018.smil" media-type="application/smil+xml"/>
+        <item id="p-smil019" href="smil/pages/p-019.smil" media-type="application/smil+xml"/>
+        <item id="p-smil020" href="smil/pages/p-020.smil" media-type="application/smil+xml"/>
+        <item id="p-smil021" href="smil/pages/p-021.smil" media-type="application/smil+xml"/>
+        <item id="p-smil022" href="smil/pages/p-022.smil" media-type="application/smil+xml"/>
+        <item id="p-smil023" href="smil/pages/p-023.smil" media-type="application/smil+xml"/>
+        <item id="p-smil024" href="smil/pages/p-024.smil" media-type="application/smil+xml"/>
+        <item id="p-smil025" href="smil/pages/p-025.smil" media-type="application/smil+xml"/>
+        <item id="p-smil026" href="smil/pages/p-026.smil" media-type="application/smil+xml"/>
+        <item id="p-smil027" href="smil/pages/p-027.smil" media-type="application/smil+xml"/>
+        <item id="p-smil028" href="smil/pages/p-028.smil" media-type="application/smil+xml"/>
+        <item id="p-smil029" href="smil/pages/p-029.smil" media-type="application/smil+xml"/>
+        <item id="p-smil030" href="smil/pages/p-030.smil" media-type="application/smil+xml"/>
+        <item id="p-smil031" href="smil/pages/p-031.smil" media-type="application/smil+xml"/>
+        <item id="p-smil032" href="smil/pages/p-032.smil" media-type="application/smil+xml"/>
+        <item id="p-smil033" href="smil/pages/p-033.smil" media-type="application/smil+xml"/>
+        <item id="p-smil034" href="smil/pages/p-034.smil" media-type="application/smil+xml"/>
+        <item id="p-smil035" href="smil/pages/p-035.smil" media-type="application/smil+xml"/>
+        <item id="p-smil036" href="smil/pages/p-036.smil" media-type="application/smil+xml"/>
+        <item id="p-smil037" href="smil/pages/p-037.smil" media-type="application/smil+xml"/>
+        <item id="p-smil038" href="smil/pages/p-038.smil" media-type="application/smil+xml"/>
+        <item id="p-smil039" href="smil/pages/p-039.smil" media-type="application/smil+xml"/>
+        <item id="p-smil040" href="smil/pages/p-040.smil" media-type="application/smil+xml"/>
+        <item id="p-smil041" href="smil/pages/p-041.smil" media-type="application/smil+xml"/>
+        <item id="p-smil042" href="smil/pages/p-042.smil" media-type="application/smil+xml"/>
+        <item id="p-smil043" href="smil/pages/p-043.smil" media-type="application/smil+xml"/>
+    <!--smil glossary-->
+        <item id="g-smil-abrir_huecos" href="smil/glossary/g-abrir_huecos.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-aburrirse" href="smil/glossary/g-aburrirse.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-adoptar" href="smil/glossary/g-adoptar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-amputar" href="smil/glossary/g-amputar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-arrepentirse" href="smil/glossary/g-arrepentirse.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-aullar" href="smil/glossary/g-aullar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-aventuras" href="smil/glossary/g-aventuras.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-chantajear" href="smil/glossary/g-chantajear.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-collar_isabelino" href="smil/glossary/g-collar_isabelino.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-conocer" href="smil/glossary/g-conocer.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-coquetear" href="smil/glossary/g-coquetear.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-embarrarse" href="smil/glossary/g-embarrarse.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-enamorarse" href="smil/glossary/g-enamorarse.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-estar_a_la_moda" href="smil/glossary/g-estar_a_la_moda.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-fractura" href="smil/glossary/g-fractura.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-frisbi" href="smil/glossary/g-frisbi.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-frustrarse" href="smil/glossary/g-frustrarse.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-guarderia_para_perros" href="smil/glossary/g-guarderia_para_perros.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-guardian" href="smil/glossary/g-guardian.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-hacerse_bolita" href="smil/glossary/g-hacerse_bolita.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-hacer_pipi" href="smil/glossary/g-hacer_pipi.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-hogar" href="smil/glossary/g-hogar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-husmear" href="smil/glossary/g-husmear.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-inci" href="smil/glossary/g-inci.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-infeccion" href="smil/glossary/g-infeccion.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-insor" href="smil/glossary/g-insor.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-interactuar" href="smil/glossary/g-interactuar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-ladrar" href="smil/glossary/g-ladrar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-ladron" href="smil/glossary/g-ladron.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-lamerse" href="smil/glossary/g-lamerse.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-nadar" href="smil/glossary/g-nadar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-panza" href="smil/glossary/g-panza.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-perseguir_gatos" href="smil/glossary/g-perseguir_gatos.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-salpicar" href="smil/glossary/g-salpicar.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-terco" href="smil/glossary/g-terco.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-tomar_el_sol" href="smil/glossary/g-tomar_el_sol.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-unicef" href="smil/glossary/g-unicef.smil" media-type="application/smil+xml"/>
+        <item id="g-smil-yoga" href="smil/glossary/g-yoga.smil" media-type="application/smil+xml"/>
+    <!--script-->
+        <item id="script_boostrap" href="js/bootstrap.min.js" media-type="application/javascript"/>
+        <item id="script_jquery" href="js/jquery.min.js" media-type="application/javascript"/>
+        <item id="script_base" href="js/script.js" media-type="application/javascript"/>   
+    
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover"/>
+    <!-- toc -->
+        <!-- <itemref idref="toc"/> -->
+    <!-- info -->
+        <itemref idref="guide"/>
+        <itemref idref="intro"/>
+    <!-- Pages -->
+        <itemref idref="p-001"/>
+        <itemref idref="p-002"/>
+        <itemref idref="p-003"/>
+        <itemref idref="p-004"/>
+        <itemref idref="p-005"/>
+        <itemref idref="p-006"/>
+        <itemref idref="p-007"/>
+        <itemref idref="p-008"/>
+        <itemref idref="p-009"/>
+        <itemref idref="p-010"/>
+        <itemref idref="p-011"/>
+        <itemref idref="p-012"/>
+        <itemref idref="p-013"/>
+        <itemref idref="p-014"/>
+        <itemref idref="p-015"/>
+        <itemref idref="p-016"/>
+        <itemref idref="p-017"/>
+        <itemref idref="p-018"/>
+        <itemref idref="p-019"/>
+        <itemref idref="p-020"/>
+        <itemref idref="p-021"/>
+        <itemref idref="p-022"/>
+        <itemref idref="p-023"/>
+        <itemref idref="p-024"/>
+        <itemref idref="p-025"/>
+        <itemref idref="p-026"/>
+        <itemref idref="p-027"/>
+        <itemref idref="p-028"/>
+        <itemref idref="p-029"/>
+        <itemref idref="p-030"/>
+        <itemref idref="p-031"/>
+        <itemref idref="p-032"/>
+        <itemref idref="p-033"/>
+        <itemref idref="p-034"/>
+        <itemref idref="p-035"/>
+        <itemref idref="p-036"/>
+        <itemref idref="p-037"/>
+        <itemref idref="p-038"/>
+        <itemref idref="p-039"/>
+        <itemref idref="p-040"/>
+        <itemref idref="p-041"/>
+        <itemref idref="p-042"/>
+        <itemref idref="p-043"/>
+    <!-- Glossary -->
+        <itemref idref="g-abrir_huecos"/>
+        <itemref idref="g-aburrirse"/>
+        <itemref idref="g-adoptar"/>
+        <itemref idref="g-amputar"/>
+        <itemref idref="g-arrepentirse"/>
+        <itemref idref="g-aullar"/>
+        <itemref idref="g-aventuras"/>
+        <itemref idref="g-chantajear"/>
+        <itemref idref="g-collar_isabelino"/>
+        <itemref idref="g-conocer"/>
+        <itemref idref="g-coquetear"/>
+        <itemref idref="g-embarrarse"/>
+        <itemref idref="g-enamorarse"/>
+        <itemref idref="g-estar_a_la_moda"/>
+        <itemref idref="g-fractura"/>
+        <itemref idref="g-frisbi"/>
+        <itemref idref="g-frustrarse"/>
+        <itemref idref="g-guarderia_para_perros"/>
+        <itemref idref="g-guardian"/>
+        <itemref idref="g-hacerse_bolita"/>
+        <itemref idref="g-hacer_pipi"/>
+        <itemref idref="g-hogar"/>
+        <itemref idref="g-husmear"/>
+        <itemref idref="g-inci"/>
+        <itemref idref="g-infeccion"/>
+        <itemref idref="g-insor"/>
+        <itemref idref="g-interactuar"/>
+        <itemref idref="g-ladrar"/>
+        <itemref idref="g-ladron"/>
+        <itemref idref="g-lamerse"/>
+        <itemref idref="g-nadar"/>
+        <itemref idref="g-panza"/>
+        <itemref idref="g-perseguir_gatos"/>
+        <itemref idref="g-salpicar"/>
+        <itemref idref="g-terco"/>
+        <itemref idref="g-tomar_el_sol"/>
+        <itemref idref="g-unicef"/>
+        <itemref idref="g-yoga"/>
+    <!-- info -->
+        <itemref idref="outro"/>
+        <itemref idref="logos"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Portada" href="pages/info/cover.xhtml"/>
+  </guide>
+</package>

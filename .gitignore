@@ -1,0 +1,38 @@
+# Config
+.vscode
+.github
+
+# Sass
+.sass-cache
+
+# Packages
+*.zip
+*.epub
+
+# macOS-specific files
+.DS_Store
+
+# dev
+package-lock.json
+
+# dependencies
+node_modules/
+
+# build
+dist/
+out/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/blob-report/
+
+# environment variables
+.env
+.env.production

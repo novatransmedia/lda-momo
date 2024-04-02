@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Verdana";
+    src: url(../fonts/Verdana.ttf)
+}
+
+@font-face {
+    font-family: "Verdana";
+    font-weight: bold;
+    src: url(../fonts/Verdana-Bold.ttf)
+}
+
+@font-face {
+    font-family: "Verdana";
+    font-style: italic;
+    src: url(../fonts/Verdana-Italic.ttf)
+}

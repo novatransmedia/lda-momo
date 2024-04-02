@@ -1,0 +1,45 @@
+.pages {
+    background-color: var(--page-bg-main);
+    background-image: url(../images/img_bg.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    a {
+
+        // text-decoration: none;
+        color: var(--nav-bg);
+
+        &:hover,
+        &:focus,
+        &:focus-visible,
+        &:focus-within {
+            text-decoration: underline;
+        }
+    }
+
+    .title {
+        color: var(--page-alt);
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    .bg-blue-light {
+        background-color: var(--blue-light);
+    }
+
+    @media (min-width: 992px) {
+        .img-rounded-lg-60 {
+            clip-path: circle(60%);
+        }
+    }
+}

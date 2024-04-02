@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+
+<head>
+    <title>Momo - Omar Castro</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--style-->
+    <meta name="view-transition" content="same-origin" />
+
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+    <!--base script-->
+    <script src="../../js/script.js"></script>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/fonts.css" />
+</head>
+
+<body epub_type="bodymatter" class="row justify-content-evenly h-100 flex-fill" onload="loadPage('content')">
+    <div class="col-12 flex-column justify-content-center main-column">
+        <div class="row h-100 justify-content-center align-items-lg-stretch">
+            <div class="col-12 d-flex flex-column">
+                <main class="row h-100 pages" id="mainPage">
+                    <div class="col-12 p-0" id="read">
+                        <div class="row justify-content-end g-0">
+                            <div class="col-12 mt-5 mt-lg-0">
+                                <p>
+                                    <span id="LF-118">Ser</span>
+                                    <span id="LF-119"><a href="../glossary/g-terco.xhtml" title="Ver significado de la palabra">terco</a>.</span>
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-10 col-xl-8 p-0">
+                                <img src="../../images/pages/img_p_036.png" alt="Momo está estirado boca abajo en el piso y es arrastrado por su collar." class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-5 d-none mt-3 mt-lg-0" id="watch">
+                        <div class="ratio ratio-1x1">
+                            <video controls="true" autoplay="true" loop="true" controlslist="nodownload" id="videoLSC" src="../../video/pages/vid_p_036.mp4" preload="auto">
+                                <source src="../../video/pages/vid_p_036.mp4" type="video/mp4" />
+                                El formato de video no esta soportado en su dispositivo a continuación haga clic para
+                                <a href="../../video/pages/vid_p_036.mp4" target="_blank" download="true">descargar el video</a>
+                            </video>
+                        </div>
+                    </div>
+                </main>
+                <nav class="row controls justify-content-center" role="navigation" aria-label="Controles de lectura">
+                    <div class="pagination">
+                        <p>Página <strong>36</strong> de <strong>43</strong></p>
+                    </div>
+                    <div class="col-12 col-md-10 col-lg-8 p-1 p-md-2">
+                        <div class="row g-0 justify-content-evenly">
+                            <div class="col-2 col-md-1">
+                                <a href="p-035.xhtml" title="Ir a la anterior página" class="btn-nav"><img src="../../images/ico_atras.svg" alt="Icono Retroceder" role="none" /></a>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <a href="p-037.xhtml" title="Ir a la siguiente página" class="btn-nav"><img src="../../images/ico_adelante.svg" alt="Icono Avanzar" role="none" /></a>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <button title="Índice" class="btn-nav" data-bs-toggle="offcanvas" data-bs-target="#indice" aria-controls="indice">
+                                    <img src="../../images/ico_index.svg" alt="Icono Indice" role="none" />
+                                </button>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <button title="Mira el video de Lengua de Señas Colombiana" class="btn-nav" onclick="showLSC()"><img src="../../images/ico_lsc.svg" alt="Icono LSC" role="none" /></button>
+                            </div>
+                            <div class="w-100 d-md-none my-1"></div>
+                            <div class="col-2 col-md-1">
+                                <button title="Escucha lo que dice el texto" class="btn-nav" onclick="listenNarration()"><img src="../../images/ico_audio_narration.svg" alt="Icono Narración" role="none" /></button>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <button title="Escucha la descripción de la imagen" class="btn-nav" onclick="listenDescription()"><img src="../../images/ico_audio_description.svg" alt="Icono Descripcion Imagen" role="none" /></button>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <a href="../glossary/g-terco.xhtml" title="Aquí encontrarás el significado de las palabras nuevas o desconocidas" class="btn-nav"><img src="../../images/ico_glossary.svg" alt="Icono Glosario" role="none" /></a>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <button title="Cambia el contraste" class="btn-nav" onclick="changeContrast()"><img src="../../images/ico_contrast.svg" alt="Icono Cambiar contraste" role="none" /></button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <audio id="narracion" aria-label="narración" src="../../audio/page/aud_p_036.mp3" preload="auto"></audio>
+        <audio id="descripcion" aria-label="descripción de imagen" src="../../audio/desc/aud_d_036.mp3" preload="auto"></audio>
+    </div>
+    <div class="offcanvas offcanvas-start index-content" tabindex="-1" id="indice" aria-labelledby="indiceLabel">
+        <div class="offcanvas-header">
+            <h5 id="indiceLabel">Índice de contenidos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar índice" title="Cerrar índice"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav>
+                <ol>
+                    <li><a href="../info/cover.xhtml" data-bs-dismiss="offcanvas">Portada</a></li>
+                    <li><a href="../info/guide.xhtml " data-bs-dismiss="offcanvas">Guía de navegación</a></li>
+                    <li><a href="../info/intro.xhtml" data-bs-dismiss="offcanvas">Introducción</a></li>
+                    <li><a href="p-001.xhtml" data-bs-dismiss="offcanvas">Cuento de Momo</a></li>
+                    <li><a href="p-043.xhtml" data-bs-dismiss="offcanvas">Créditos</a></li>
+                    <li><a href="../info/outro.xhtml" data-bs-dismiss="offcanvas">Historia de Momo</a></li>
+                    <li><a href="../info/logos.xhtml" data-bs-dismiss="offcanvas">Entidades participantes</a></li>
+                </ol>
+            </nav>
+            <hr class="border border-3 border-dark opacity-25" />
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-3">
+                    <div class="form-check form-switch d-flex align-items-center">
+                        <input class="form-check-input" type="checkbox" role="switch" id="opt_keyboardNav" name="opt_keyboardNav" />
+                        <label class="form-check-label" for="opt_keyboardNav">
+                            <p class="lh-sm ps-3">Navegar usando el teclado</p>
+                        </label>
+                    </div>
+                </div>
+                <!-- <div class="col-12 mb-3">
+                    <div class="form-check form-switch d-flex align-items-center">
+                        <input class="form-check-input" type="checkbox" role="switch" id="opt_autoPlay" name="opt_autoPlay" />
+                        <label class="form-check-label" for="opt_autoPlay">
+                            <p class="lh-sm ps-3">Reproducción automática</p>
+                        </label>
+                    </div>
+                </div> -->
+                <div class="col-12">
+                    <div class="form-check form-switch d-flex align-items-center">
+                        <input class="form-check-input" type="checkbox" role="switch" id="opt_showLSC" name="opt_showLSC" />
+                        <label class="form-check-label" for="opt_showLSC">
+                            <p class="lh-sm ps-3">Mostrar Lengua de señas</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <hr class="border border-3 border-dark opacity-25" />
+            <!-- <div class="row">
+                <div class="col-12">
+                    <p class="mb-1 lh-sm"><small>Ir a una página:</small></p>
+                    <div class="input-group">
+                        <input type="number" min="1" max="43" class="form-control" placeholder="Introducir número de página" aria-label="Introducir número de página destino" aria-describedby="goToPageNumber" id="opt_goToPage" />
+                        <button class="btn btn-outline-secondary" type="button" id="goToPageNumber" onclick="navGoToPage()">Ir</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
