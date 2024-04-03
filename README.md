@@ -38,9 +38,9 @@ Las principales ventajas de esta aproximación son:
 
 ### epubReader/
 
-En la carpeta epubReader se encuentra la implementación de lector de epubReader.
+En la carpeta **epubReader** se encuentra la implementación de lector de _Epub_.
 
-1. _index.html_ es el archivo de entrada al **LDA**
+1. _epubReader/index.html_ es el archivo de entrada al **LDA**
 2. _epubReader/CSS/style.css_ tiene los estilos aplicados al lector dirigidos principalmente a maximizar el area de lectura, no es necesario modificarlos para hacer nuevas implementaciónes.
 3. _epubReader/images/_ en esta carpeta se encuentra el icono del lector para reemplazarlos de acuerdo a la línea gráfica de cada implementación.
 4. _epubReader/js/_ se encuentrá la librería _epubReader/js/epub.js_ que es permite la carga del epub en el navegador, y el archivo _epubReader/js/script.js_
