@@ -41,14 +41,14 @@ Las principales ventajas de esta aproximación son:
 En la carpeta epubReader se encuentra la implementación de lector de epubReader.
 
 1. _index.html_ es el archivo de entrada al **LDA**
-2. _/CSS/style.css_ tiene los estilos aplicados al lector dirigidos principalmente a maximizar el area de lectura, no es necesario modificarlos para hacer nuevas implementaciónes.
-3. _/images/_ en esta carpeta se encuentra el icono del lector para reemplazarlos de acuerdo a la línea gráfica de cada implementación.
-4. _/js/_ se encuentrá la librería **Epub.js** que es permite la carga del epub en el navegador, y el archivo _script.js_ 
+2. _epubReader/CSS/style.css_ tiene los estilos aplicados al lector dirigidos principalmente a maximizar el area de lectura, no es necesario modificarlos para hacer nuevas implementaciónes.
+3. _epubReader/images/_ en esta carpeta se encuentra el icono del lector para reemplazarlos de acuerdo a la línea gráfica de cada implementación.
+4. _epubReader/js/_ se encuentrá la librería _epubReader/js/epub.js_ que es permite la carga del epub en el navegador, y el archivo _epubReader/js/script.js_
 
-   > _script.js_ es esencial en la implementación, en el se define la ruta de carga del epub y los datos que son persistentes en el libro digital.
+   > _epubReader/js/script.js_ es esencial en la implementación, en el se define la ruta de carga del epub y los datos que son persistentes en el libro digital.
 
     ```js
-        // Cargar Epub
+        // Ruta del package Epub a cargar - La libería epub.js tambien puede soportar la version comprimida del formato *.epub
         var book = ePub("../momo/package.opf");
         
         // Objeto persistente con las preferencias del usuario
