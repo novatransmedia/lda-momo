@@ -1,14 +1,16 @@
-//Preferencias de usuario en epub reader
+// Preferencias de usuario
 var userPreferences = {
-    // Navegación
+    // -- Navegación
     arrowNav: false, // Usar flechas del teclado para navegar
-    autoPlay: false, //Reproducir automaticamente
-    //--
-    showLSC: false, //Lengua de señas
-    easyText: false, //Ver texto alternavivo    
-    //-- 
-    colorOption: 0,
-    contrastOption: 0
+    autoPlay: false, // Reproducir automaticamente
+
+    // -- Lectura
+    showLSC: false, // Lengua de señas
+    easyText: false, // Ver texto alternavivo
+
+    // -- Accesibilidad
+    contrastOption: 0, // Tipo de contraste seleccionado
+    // colorOption: 0
 }
 //-- Cargar Epub
 var book = ePub("../momo/package.opf");
