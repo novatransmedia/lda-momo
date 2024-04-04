@@ -59,3 +59,23 @@ En la carpeta **epubReader** se encuentra la implementación de lector de _Epub_
     ```
 
 ### momo/
+
+1. Las carpetas ( _momo/audio_, _momo/css_, _momo/fonts_, _momo/images, _momo/smil_, _momo/video_ ) contienen los recursos generados para el libro 
+2. _momo/css_ y _momo/scss_ contienen las hojas de estilo scss y el resultado compilado en _momo/css/style.css_ si bien este archivo puede modificarse directamente se recomienda continuar usando **SASS** para ello
+
+    - Instalar [NodeJs](https://nodejs.org/)
+    - Instalar [SASS](https://sass-lang.com/) en el equipo usando el comando de consola:
+
+    ```bash
+        npm install -g sass
+    ```
+
+    - Ejecutar **SASS** usando el comando de consola:
+
+    ```bash
+        sass --watch scss/style.scss:css/style.css
+    ```
+
+    > De acuerdo a la necesidad **SASS** puede adicionalmente comprimir el codigo y usando librerías como [purgecss](https://purgecss.com/) se optimiza las hojas de estilos resultantes.
+
+3. _momo/js_
