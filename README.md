@@ -21,7 +21,7 @@ Las principales ventajas de esta aproximación son:
 - El uso del navegador web permite una mayor cobertura al ser un _software esencial_ en los dispositivos actuales.
 - No requiere instalar _software_ adicional como lector de _Epub_ evitando variaciones en la experiencia ya que no depende del estado de los diferentes lectores en cuanto a la adopción del estándar de Epub 3.0+.
 - Al ser independiente de algún _software_ de lectura _Epub_ se pueden aprovechar las posibilidades que tiene el formato _Epub_ para habilitar capacidades interactivas sin limitaciones.
-- El resultado es un **sitio web autocontenido**, por lo que para ver el LDA solo ser requiere hacer doble clic en el archivo index.html, y así mismo puede ser empaquetado para distintos sistemas operativos, a tráves de herramientas de desarrollo convencionales como lo son [ionic](https://ionicframework.com/) y/o [electron](https://www.electronjs.org/).
+- El resultado es un **sitio web autocontenido**, por lo que para ver el LDA solo se requiere abrir en un navegador el archivo _index.html_, y adicionalmente puede ser empaquetado para distintos sistemas operativos, a través de herramientas de desarrollo convencionales como lo son [ionic](https://ionicframework.com/) y/o [electron](https://www.electronjs.org/).
 
 ### Requerimientos
 
@@ -46,15 +46,15 @@ Las principales ventajas de esta aproximación son:
 En la carpeta **epubReader** se encuentra la implementación de lector de _Epub_.
 
 1. _epubReader/index.html_ es el archivo de entrada al **LDA**
-2. _epubReader/css/style.css_ tiene los estilos aplicados al lector dirigidos principalmente a maximizar el area de lectura, no es necesario modificarlos para hacer nuevas implementaciónes.
+2. _epubReader/css/style.css_ tiene los estilos aplicados al lector dirigidos principalmente a maximizar el área de lectura, no es necesario modificarlos para hacer nuevas implementaciones.
 3. _epubReader/images/_ en esta carpeta se encuentra el icono del lector para reemplazarlos de acuerdo a la línea gráfica de cada implementación.
-4. _epubReader/js/_ se encuentrá la librería _epubReader/js/epub.js_ que es permite la carga del epub en el navegador, y el archivo _epubReader/js/script.js_
+4. _epubReader/js/_ se encuentra la librería _epubReader/js/epub.js_ que es permite la carga del epub en el navegador, y el archivo _epubReader/js/script.js_
 
    > _epubReader/js/script.js_ es esencial en la implementación, en el se define la ruta de carga del epub y los datos que son persistentes en el libro digital.
 
     ```js
         // Ruta del package Epub a cargar
-        // La libería epub.js tambien puede soportar la version comprimida del formato *.epub
+        // La librería epub.js tambien puede soportar la versión comprimida del formato *.epub
         var book = ePub("../momo/package.opf");
         
         // Objeto persistente con las preferencias del usuario
@@ -95,9 +95,9 @@ En la carpeta **epubReader** se encuentra la implementación de lector de _Epub_
 
     Las páginas se encuentran agrupadas por tipos así:
 
-    - _momo/pages/info_: contiene las páginas de cubierta, guía de navegación, logos y otras páginas que no corresponenden al contenido de la historia del libro.
+    - _momo/pages/info_: contiene las páginas de cubierta, guía de navegación, logos y otras páginas que no pertenecen al contenido de la historia del libro.
     - _momo/pages/content_: contiene las páginas de la historia de Momo de acuerdo al libro original.
-    - _momo/pages/glossary_: contiene las definiciones de los terminos identificados y enlazados en las páginas de la historia de Momo.
+    - _momo/pages/glossary_: contiene las definiciones de los términos identificados y enlazados en las páginas de la historia de Momo.
 
     Adicionalmente cada página identifica su tipo en el momento de la carga para cargar las preferencias de usuario:
 
