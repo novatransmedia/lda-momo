@@ -10,7 +10,7 @@ Libros Digitales Accesibles para todas las niñas y niños de Colombia
 
 > [Haga clic para ver el LDA](https://www.gestioninclusiva.org/sites/default/files/recursos/MomoLDA/epubReader/index.html)
 
-_Objeto, actores y descripción del resultado._
+_Pendiente: Objeto, actores y descripción del resultado._
 
 ## Aspecto técnico
 
@@ -53,7 +53,7 @@ En la carpeta **epubReader** se encuentra la implementación de lector de _Epub_
    > _epubReader/js/script.js_ es esencial en la implementación, en el se define la ruta de carga del epub y los datos que son persistentes en el libro digital.
 
     ```js
-        // Ruta del package Epub a cargar 
+        // Ruta del package Epub a cargar
         // La libería epub.js tambien puede soportar la version comprimida del formato *.epub
         var book = ePub("../momo/package.opf");
         
@@ -65,7 +65,7 @@ En la carpeta **epubReader** se encuentra la implementación de lector de _Epub_
 
 ### momo/
 
-1. Las carpetas ( _momo/audio_, _momo/css_, _momo/fonts_, _momo/images, _momo/smil_, _momo/video_ ) contienen los recursos generados para el libro 
+1. Las carpetas ( _momo/audio_, _momo/css_, _momo/fonts_, _momo/images, _momo/smil_, _momo/video_ ) contienen los recursos generados para el libro. Todos los llamados a estos recursos se realizan dentro de las páginas de libro.
 2. _momo/css_ y _momo/scss_ contienen las hojas de estilo scss y el resultado compilado en _momo/css/style.css_ si bien este archivo puede modificarse directamente se recomienda continuar usando **SASS** para ello
 
     - Instalar [NodeJs](https://nodejs.org/)
@@ -83,4 +83,29 @@ En la carpeta **epubReader** se encuentra la implementación de lector de _Epub_
 
     > De acuerdo a la necesidad **SASS** puede adicionalmente comprimir el codigo y usando librerías como [purgecss](https://purgecss.com/) se optimiza las hojas de estilos resultantes.
 
-3. _momo/js_
+3. _momo/js_ contiene los archivos JavaScript usados por las librerías Boostrap y JQuery. Y el archivo _momo/js/script.js_
+
+   > _momo/js/script.js_ es esencial en la implementación, en este se definen y documentan la navegación, acceso a la lengua de señas Colombiana, audios, texto alternativo y otras funciones del lector.
+
+4. _momo/pages_ contiene los archivos en formato **xhtml** que corresponden a las páginas del libro, en general las páginas se encuentran estructuradas en 3 identificadores primarios:
+
+   - [id = read] -> El texto de cada página.
+   - [id = watch] -> Imágenes e ilustraciones de cada página.
+   - [id = videoLSC] -> El video en Lengua de señas Colombiana, este se muestra de acuerdo a las preferencias de usuario.
+
+    Las páginas se encuentran agrupadas por tipos así:
+
+    - _momo/pages/info_: contiene las páginas de cubierta, guía de navegación, logos y otras páginas que no corresponenden al contenido de la historia del libro.
+    - _momo/pages/content_: contiene las páginas de la historia de Momo de acuerdo al libro original.
+    - _momo/pages/glossary_: contiene las definiciones de los terminos identificados y enlazados en las páginas de la historia de Momo.
+
+    Adicionalmente cada página identifica su tipo en el momento de la carga para cargar las preferencias de usuario:
+
+    ```html
+        <!-- 'cover', 'content', 'glossary' -->
+        <body ... onload="loadPage('content')"> 
+    ```
+
+## Licencia
+
+## Créditos y Logos
