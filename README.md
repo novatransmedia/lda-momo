@@ -1,3 +1,5 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/novatransmedia/lda-momo/blob/main/readme.en.md)
+
 # lda-momo
 
 Libros Digitales Accesibles para todas las niñas y niños de Colombia
@@ -5,6 +7,8 @@ Libros Digitales Accesibles para todas las niñas y niños de Colombia
 2023 - 2024
 
 ## Acerca del proyecto
+
+> [Haga clic para ver el LDA](https://www.gestioninclusiva.org/sites/default/files/recursos/MomoLDA/epubReader/index.html)
 
 _Objeto, actores y descripción del resultado._
 
@@ -17,6 +21,7 @@ Las principales ventajas de esta aproximación son:
 - El uso del navegador web permite una mayor cobertura al ser un _software esencial_ en los dispositivos actuales.
 - No requiere instalar _software_ adicional como lector de _Epub_ evitando variaciones en la experiencia ya que no depende del estado de los diferentes lectores en cuanto a la adopción del estándar de Epub 3.0+.
 - Al ser independiente de algún _software_ de lectura _Epub_ se pueden aprovechar las posibilidades que tiene el formato _Epub_ para habilitar capacidades interactivas sin limitaciones.
+- El resultado es un **sitio web autocontenido**, por lo que para ver el LDA solo ser requiere hacer doble clic en el archivo index.html, y así mismo puede ser empaquetado para distintos sistemas operativos, a tráves de herramientas de desarrollo convencionales como lo son [ionic](https://ionicframework.com/) y/o [electron](https://www.electronjs.org/).
 
 ### Requerimientos
 

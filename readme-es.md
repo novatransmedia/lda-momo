@@ -1,3 +1,0 @@
-# lda-momo
-
-Español base
