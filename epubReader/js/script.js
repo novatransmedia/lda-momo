@@ -1,19 +1,37 @@
-// Preferencias de usuario
+/*
+Scripts for LDA
+
+> LANG ES/EN USED
+> ADT = LDA = Libro digital Accesible
+> LSC = Lengua de señas Colombiana = sign language video & video container
+
+The epubReader/js/epub.js library is the EPUB reader, all 'parent.window' calls are to this library and it's configuration file epubReader/js/script.js
+
+Page content ID: 
+    $("#watch") -> Images/Art of the page
+    $("#read") -> Text of the page
+    $("#videoLSC") -> Sign language video of the page
+*/
+
+// Contains all the user preferences for persistence between pages
 var userPreferences = {
-    // -- Navegación
-    arrowNav: false, // Usar flechas del teclado para navegar
-    autoPlay: false, // Reproducir automaticamente
+    // -- Nav
+    arrowNav: false, // Allow Keyboard navigation 
+    autoPlay: false, // Allow AutoPlay
 
-    // -- Lectura
-    showLSC: false, // Lengua de señas
-    easyText: false, // Ver texto alternavivo
+    // -- Reading
+    showLSC: false, // Show Sign language video of the page
+    easyText: false, // Show alternative "easy" text
 
-    // -- Accesibilidad
-    contrastOption: 0, // Tipo de contraste seleccionado
-    // colorOption: 0
+    // -- Accesibility
+    contrastOption: 0, // Current contrast option selected    
 }
-//-- Cargar Epub
+
+// Load Epub file, can be the *.epub adding an .zip file manager like [zip.js]
 var book = ePub("../momo/package.opf");
+
+// Render the selected book inside the "area" tag
+// Go to Epub.js (https://github.com/futurepress/epub.js) documentation for further insight
 var rendition = book.renderTo("area",
     {
         method: "default",
@@ -22,21 +40,17 @@ var rendition = book.renderTo("area",
         allowScriptedContent: true,
         flow: "paginated"
     });
+// Activate the rendered epub
 var displayed = rendition.display();
-//-- 
 
+// ---
+// Keyboard navigation left/previus page
 function prevPage() {
     if (userPreferences.arrowNav) {
         rendition.prev();
     }
 }
-
-function nextPage() {
-    if (userPreferences.arrowNav) {
-        rendition.next();
-    }
-}
-
+// Event
 document.addEventListener(
     "keyup",
     (event) => {
@@ -47,7 +61,14 @@ document.addEventListener(
     },
     false,
 );
-
+// ---
+// Keyboard navigation right/next page
+function nextPage() {
+    if (userPreferences.arrowNav) {
+        rendition.next();
+    }
+}
+// Event
 document.addEventListener(
     "keyup",
     (event) => {
@@ -58,11 +79,4 @@ document.addEventListener(
     },
     false,
 );
-
-// $(window).on("swipeleft", function (event) {
-//     rendition.next();
-// });
-
-// $(window).on("swiperight", function (event) {
-//     rendition.prev();
-// });
+// ---

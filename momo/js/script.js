@@ -1,37 +1,63 @@
-// Scripts
-var totalContrastOptions = 2;
-var reduceLSCLayout = false;
+/*
+Scripts for LDA
 
-document.addEventListener(
-    "keyup",
-    (event) => {
-        const keyName = event.key;
-        if (keyName === "ArrowLeft") {
-            parent.window.prevPage();
-        }
-    },
-    false,
-);
+> LANG ES/EN USED
+> ADT = LDA = Libro digital Accesible
+> LSC = Lengua de señas Colombiana = sign language video & video container
 
-document.addEventListener(
-    "keyup",
-    (event) => {
-        const keyName = event.key;
-        if (keyName === "ArrowRight") {
-            parent.window.nextPage();
-        }
-    },
-    false,
-);
+The epubReader/js/epub.js library is the EPUB reader, all 'parent.window' calls are to this library and it's configuration file epubReader/js/script.js
 
+Page content ID: 
+    $("#watch") -> Images/Art of the page
+    $("#read") -> Text of the page
+    $("#videoLSC") -> Sign language video of the page
+*/
+
+// Variables
+var totalContrastOptions = 2; // total of contrast options set
+var reduceLSCLayout = false; // switch to basic layout for responsive since the current version is tailor to *THIS* book content
+// ---
+
+// load configuration on each page
+
+// "type" allows to alter the configuration for diferent parts of the book
+// type = 'cover', 'content', 'glossary'
 function loadPage(type) {
     loadUserPreferences(type)
     loadLSCVisibility(type)
     loadContrast()
 }
 
-function loadLSCVisibility(type) {
+// user preferences loaded from reader/parent object called "userPreferences"
+function loadUserPreferences(type) {
 
+    // if keyboard Navigation is active
+    $('#opt_keyboardNav')[0].checked = parent.window.userPreferences.arrowNav
+    $("#opt_keyboardNav").change(function (e) {
+        e.preventDefault();
+        parent.window.userPreferences.arrowNav = !parent.window.userPreferences.arrowNav
+        loadLSCVisibility(type)
+    });
+
+    // if show LSC is active
+    $("#opt_showLSC")[0].checked = parent.window.userPreferences.showLSC
+    $("#opt_showLSC").change(function (e) {
+        e.preventDefault();
+        parent.window.userPreferences.showLSC = !parent.window.userPreferences.showLSC
+        loadLSCVisibility(type)
+    });
+
+    // TODO autoPlay feature not implemented > activate when ready
+    // $("#opt_autoPlay")[0].checked = parent.window.userPreferences.autoPlay
+    // $("#opt_autoPlay").change(function (e) {
+    //     e.preventDefault();
+    //     parent.window.userPreferences.autoPlay = !parent.window.userPreferences.autoPlay
+    // });
+}
+
+// show LSC on load page if the option has been selected by the user
+function loadLSCVisibility(type) {
+    // If the page type is content or glossary set the LSC video along with the text and image
     if (type === "content" || type === "glossary") {
         $("#videoLSC")[0].currentTime = 0;
         if (parent.window.userPreferences.showLSC) {
@@ -50,6 +76,7 @@ function loadLSCVisibility(type) {
             }
         }
     }
+    // If the page type is the intro video, replaces the video 
     if (type === "intro") {
         $("#videoIntro")[0].currentTime = 0
         $("#videoIntro")[0].pause()
@@ -67,107 +94,12 @@ function loadLSCVisibility(type) {
     }
 }
 
-function loadUserPreferences(type) {
-    $('#opt_keyboardNav')[0].checked = parent.window.userPreferences.arrowNav
-    $("#opt_keyboardNav").change(function (e) {
-        e.preventDefault();
-        parent.window.userPreferences.arrowNav = !parent.window.userPreferences.arrowNav
-        loadLSCVisibility(type)
-    });
-
-    $("#opt_showLSC")[0].checked = parent.window.userPreferences.showLSC
-    $("#opt_showLSC").change(function (e) {
-        e.preventDefault();
-        parent.window.userPreferences.showLSC = !parent.window.userPreferences.showLSC
-        loadLSCVisibility(type)
-    });
-
-    // TODO activate when ready
-    // $("#opt_autoPlay")[0].checked = parent.window.userPreferences.autoPlay
-    // $("#opt_autoPlay").change(function (e) {
-    //     e.preventDefault();
-    //     parent.window.userPreferences.autoPlay = !parent.window.userPreferences.autoPlay
-    // });
-}
-
-function showLSCintro() {
-    $("#videoIntro")[0].currentTime = 0
-    $("#videoIntro")[0].pause()
-    $("#videoIntroLSC")[0].currentTime = 0
-    $("#videoIntroLSC")[0].pause()
-
-    if (!parent.window.userPreferences.showLSC) {
-        parent.window.userPreferences.showLSC = true
-        $("#watchLSC").removeClass('d-none')
-        $("#watch").addClass('d-none')
-        $("#videoIntroLSC")[0].play()
-
-    } else {
-        parent.window.userPreferences.showLSC = false
-        $("#watchLSC").addClass('d-none')
-        $("#watch").removeClass('d-none')
-        $("#videoIntro")[0].play()
-    }
-    $("#opt_showLSC")[0].checked = parent.window.userPreferences.showLSC
-}
-
-function showLSC() {
-    $("#videoLSC")[0].currentTime = 0
-
-    if (!parent.window.userPreferences.showLSC) {
-        parent.window.userPreferences.showLSC = true
-
-        $("#watch").removeClass('d-none')
-        $("#read").addClass('col-sm-6 shadow overflow-hidden')
-        $("#videoLSC")[0].play()
-        if (reduceLSCLayout) {
-            $("#read").find("div[class^='col-']").addClass("w-75 mx-auto")
-        }
-
-    } else {
-        parent.window.userPreferences.showLSC = false
-        $("#watch").addClass('d-none')
-        $("#read").removeClass('col-sm-6 shadow overflow-hidden')
-        $("#videoLSC")[0].pause()
-        if (reduceLSCLayout) {
-            $("#read").find("div[class^='col-']").removeClass("w-75 mx-auto")
-        }
-    }
-    $("#opt_showLSC")[0].checked = parent.window.userPreferences.showLSC
-}
-
-function listenNarration() {
-    $("#narracion")[0].currentTime = 0
-    $("#narracion")[0].play()
-    $("#descripcion")[0].currentTime = 0
-    $("#descripcion")[0].pause()
-}
-
-function listenDescription() {
-    $("#narracion")[0].currentTime = 0
-    $("#descripcion")[0].currentTime = 0
-    $("#narracion")[0].pause()
-    $("#descripcion")[0].play()
-}
-
-function listenDefinition() {
-    $("#narracion")[0].currentTime = 0
-    $("#narracion")[0].play()
-}
-
-function changeContrast() {
-
-    console.log(parent.window.userPreferences.contrastOption);
-
-    if (parent.window.userPreferences.contrastOption < totalContrastOptions) {
-        parent.window.userPreferences.contrastOption++;
-    } else {
-        parent.window.userPreferences.contrastOption = 0;
-    }
-    loadContrast()
-    console.log(parent.window.userPreferences.contrastOption);
-}
-
+// switch constrast modes:
+// 0: default look as the original book
+// 1: reduced background alternative 
+// 2: white background
+// More contrast types can be added
+// TODO color alternatives
 function loadContrast() {
     switch (parent.window.userPreferences.contrastOption) {
         case 0:
@@ -211,9 +143,75 @@ function loadContrast() {
             break;
     }
 }
+// ---
+// switch LSC video on intro page and set the user preference on LSC
+function showLSCintro() {
+    $("#videoIntro")[0].currentTime = 0
+    $("#videoIntro")[0].pause()
+    $("#videoIntroLSC")[0].currentTime = 0
+    $("#videoIntroLSC")[0].pause()
 
+    if (!parent.window.userPreferences.showLSC) {
+        parent.window.userPreferences.showLSC = true
+        $("#watchLSC").removeClass('d-none')
+        $("#watch").addClass('d-none')
+        $("#videoIntroLSC")[0].play()
+
+    } else {
+        parent.window.userPreferences.showLSC = false
+        $("#watchLSC").addClass('d-none')
+        $("#watch").removeClass('d-none')
+        $("#videoIntro")[0].play()
+    }
+    $("#opt_showLSC")[0].checked = parent.window.userPreferences.showLSC
+}
+// switch LSC video on content/glossary page and set the user preference on LSC
+function showLSC() {
+    $("#videoLSC")[0].currentTime = 0
+
+    if (!parent.window.userPreferences.showLSC) {
+        parent.window.userPreferences.showLSC = true
+
+        $("#watch").removeClass('d-none')
+        $("#read").addClass('col-sm-6 shadow overflow-hidden')
+        $("#videoLSC")[0].play()
+        if (reduceLSCLayout) {
+            $("#read").find("div[class^='col-']").addClass("w-75 mx-auto")
+        }
+
+    } else {
+        parent.window.userPreferences.showLSC = false
+        $("#watch").addClass('d-none')
+        $("#read").removeClass('col-sm-6 shadow overflow-hidden')
+        $("#videoLSC")[0].pause()
+        if (reduceLSCLayout) {
+            $("#read").find("div[class^='col-']").removeClass("w-75 mx-auto")
+        }
+    }
+    $("#opt_showLSC")[0].checked = parent.window.userPreferences.showLSC
+}
+// activate audio narration on current page
+function listenNarration() {
+    $("#narracion")[0].currentTime = 0
+    $("#narracion")[0].play()
+    $("#descripcion")[0].currentTime = 0
+    $("#descripcion")[0].pause()
+}
+// activate audio description on current page
+function listenDescription() {
+    $("#narracion")[0].currentTime = 0
+    $("#descripcion")[0].currentTime = 0
+    $("#narracion")[0].pause()
+    $("#descripcion")[0].play()
+}
+// activate audio narration alternative on current page
+function listenDefinition() {
+    $("#narracion")[0].currentTime = 0
+    $("#narracion")[0].play()
+}
+// switch text to easy mode
 function showEasyText(idPage) {
-
+    // replace the original text for easy text for cognitive access. For *THIS* book only one case use was found
     switch (idPage) {
         case "outro":
             var outroText = [
@@ -286,7 +284,6 @@ function showEasyText(idPage) {
                 Ahora tiene una familia que lo hace feliz.
             </p>`
             ]
-
             if (parent.window.userPreferences.easyText) {
                 $("#easyTextContainer").html(outroText[0]);
             } else {
@@ -297,13 +294,45 @@ function showEasyText(idPage) {
         default:
             break;
     }
-
 }
-
+// switch contrast option and set the user preference
+function changeContrast() {
+    if (parent.window.userPreferences.contrastOption < totalContrastOptions) {
+        parent.window.userPreferences.contrastOption++;
+    } else {
+        parent.window.userPreferences.contrastOption = 0;
+    }
+    loadContrast()
+}
+// Events --
+// Keyboard navigation left/previus page
+document.addEventListener(
+    "keyup",
+    (event) => {
+        const keyName = event.key;
+        if (keyName === "ArrowLeft") {
+            parent.window.prevPage(); // reader/epub.js navigation
+        }
+    },
+    false,
+);
+// Keyboard navigation right/next page
+document.addEventListener(
+    "keyup",
+    (event) => {
+        const keyName = event.key;
+        if (keyName === "ArrowRight") {
+            parent.window.nextPage(); // reader/epub.js navigation
+        }
+    },
+    false,
+);
+// Page navigation ---
+// Disable for this version require fix for lateral navigation
+/*
 function isNumber(value) {
     return typeof value === 'number';
 }
-
 function navGoToPage() {
     // TODO fix iframe location
     let dest = $('#opt_goToPage').val()
@@ -317,3 +346,4 @@ function navGoToPage() {
         $('#opt_goToPage')[0].value = ""
     }
 }
+*/
